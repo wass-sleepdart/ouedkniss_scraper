@@ -2,8 +2,8 @@ import selenium
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.options import DesiredCapabilities
+from selenium.webdriver.chrome.options import Options, DesiredCapabilities
+
 PATH='C:\Coding_projects\selenium and chromedriver\chromedriver.exe'
 options = Options()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
