@@ -18,7 +18,7 @@ def ouedkniss_renewer():
 
         password_form=driver.find_element_by_name('password')
         password_form.click()
-        password_form.send_keys('')
+        password_form.send_keys('')#obviously I had to ommit my password to make the code public
 
         connect_button2=driver.find_element_by_id('login_button')
         connect_button2.click()
